@@ -1,16 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+p {
+    font-family: Verdana, Courier, Tahoma;
+    color: white;
+}
+h1 {
+    font-family: Verdana, Courier, Tahoma;
+    color: white;
+}
+h2 {
+    font-family: Verdana, Courier, Tahoma;
+    color: white;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+
+.middleBox {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex: 1;
+}
+
 .navBox {
     padding: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-left: -10px;
 }
 
-.mainBox {
+.content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    flex: 2;
+    background-color: #1A1A1A;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: #292929;
 }
 
 .bannerBox {
@@ -19,4 +62,29 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #323232;
+}
+
+.navText {
+    color: white;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.navText:hover {
+    color: red;
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+    margin-left: 10px;
+    padding: 20px;
 }

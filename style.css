@@ -5,23 +5,28 @@
 }
 
 p {
-    font-family: Verdana, Courier, Tahoma;
+    font-family: Tahoma, Verdana, Courier;
     color: white;
 }
 h1 {
-    font-family: Verdana, Courier, Tahoma;
+    font-family: Tahoma, Verdana, Courier;
     color: white;
 }
 h2 {
-    font-family: Verdana, Courier, Tahoma;
+    font-family: Tahoma, Verdana, Courier;
     color: white;
 }
+li {
+    font-family: Tahoma, Verdana, Courier;
+    color: white;
+} 
 
 .layout {
     display: flex;
     height: 100vh;
     flex-direction: column;
     background-color: black;
+    overflow: auto;
 }
 
 .middleBox {
